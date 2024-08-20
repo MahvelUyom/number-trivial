@@ -1,0 +1,77 @@
+*{
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #566fff;
+}
+
+.container{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  background: whitesmoke;
+  padding: 3.5em 2.5em;
+  border-radius: 3px;
+  width: 95vw;
+  max-width: 31.25em;
+  /* box-shadow: 0 0  0.2em 0.03em ; */
+}
+.input{
+  display: flex;
+  justify-content: space-between;
+}
+input{
+  font-size: 1.2em;
+  width: 40%;
+}
+input, .get-fact{
+  border: 1px solid #bdbdbf;
+  outline: 0;
+  border-radius: 3px;
+  padding: 1.1em;
+}
+.input .get-fact{
+  width: 55%;
+  font-size: 1.2em;
+  background: #566fff;
+  color: white;
+  font-weight: 600;
+}
+.rand-fact{
+  width: 100%;
+  margin-top: 2em;
+  font-size: 1.2em;
+  padding: 1.1em;
+  border: 0;
+  outline: 0;
+  border-radius: 3px;
+  background: #566fff;
+  color: white;
+  font-weight: 600;
+}
+.fact{
+  background: white;
+  padding: 1.2em 1.5em;
+  margin-top: 2em;
+  border-radius: 3px;
+  box-shadow: 0 0 1.2em rgba(0, 4, 52, 0.1);
+  border-bottom:0.6em solid #566fff;
+}
+.fact h2{
+  font-size: 3em;
+}
+.fact p{
+  font-size: 1.2rem;
+  line-height: 20px;
+  font-style: italic;
+  color: #9b9b9c;
+}
+p.msg{
+  text-align: center;
+  font-weight: 500;
+  color: black;
+}
